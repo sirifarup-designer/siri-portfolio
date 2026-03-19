@@ -199,7 +199,6 @@ export default function ProjectStrip({ project, visible, onOpen }) {
       style={{ background: color, display: visible ? '' : 'none' }}
       data-tags={tags?.join(',').toLowerCase() ?? ''}
     >
-      <div ref={wrapRef} className={styles.stripWrap}>
         {rows.map((row, ri) => (
           <Strip
             key={ri}
