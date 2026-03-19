@@ -1,0 +1,69 @@
+.project {
+  width: 100%;
+}
+
+.stripWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+.strip {
+  display: flex;
+  align-items: flex-start;
+  touch-action: pan-y;
+  min-height: 0;
+}
+
+.cell {
+  flex-shrink: 0;
+  overflow: visible;
+}
+
+.cell img,
+.cell video {
+  display: block;
+  width: auto;
+  height: auto;
+  max-height: 440px;
+}
+
+.cellSmall {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+/* ── Info bar ── */
+.info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: baseline;
+  padding: 5px 7px 6px;
+  gap: 0;
+}
+
+.projTitle {
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+
+.projDesc {
+  font-size: 9.5px;
+  line-height: 1.4;
+  pointer-events: none;
+  grid-column: span 2;
+}
+
+.projDate {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: var(--sans);
+  text-align: right;
+}

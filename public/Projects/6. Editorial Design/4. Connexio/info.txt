@@ -1,0 +1,17 @@
+title: Connexió - Typefont and Editorial
+tags: Editorial Design
+describtion: Connexió is a scripted display font inspired by the style of old handwritten (love) letters. The name of the typeface is derived from the deep connection between two people that is made when they write a love letter to each other. The name not only stands metaphorically for this connection — the majuscule script is also characterised by its squiggly ornaments. The ornaments create a connection between the individual letters and the ends of the script intertwine like embracing lovers. The script shows features of calligraphic experiments. The old-style numbers contrast with the script, but still contain the ornamental elements. A small special feature of the script are the punctuations. This typeface is intended as an invitation to write more love letters in the future.
+date: 2023
+
+text: white
+color: #4F4F4F
+columns: 1
+height: 400
+smallnums:
+gap: 0
+speed: slow
+
+
+tags available: logo, visual identity, 3D, printing, posters, editorial design, website
+speed available: slow, medium, fast
+text available: black, white

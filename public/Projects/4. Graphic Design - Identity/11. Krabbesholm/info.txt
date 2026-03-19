@@ -1,0 +1,18 @@
+title: Guest Teaching at Krabbesholm Højskole
+tags: visual identity, teaching
+describtion: På Visuel Kommunikation har eleverne i et forløb med grafisk designer Siri Sølyst Farup har eleverne lavet plakater, som viser alt fra pakistansk fællesspisning, brat-summer’s begravelse til kunstudstillinger på prestigefulde museer. Hver elev formulerede sin egen plakatbestilling, som derefter blev givet videre til en anden på holdet. På den måde blev processen både individuel og kollektiv. Til sidst klistrede de hele ugens arbejde op på væggen foran grafik-værkstedet og inviterede alle til at se det fælles værk.
+date: 2025
+
+text: black
+color:
+columns: 
+height: 500
+smallnums:
+smallnums size:
+gap: 0
+speed: medium
+
+
+tags available: logo, visual identity, 3D, printing, posters, editorial design, website, teaching
+speed available: slow, medium, fast
+text available: black, white

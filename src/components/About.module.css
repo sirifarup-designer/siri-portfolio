@@ -1,0 +1,148 @@
+.wrap {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease;
+}
+.wrap.open {
+  max-height: 100vh;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: start;
+  background: var(--bg);
+}
+
+.col {
+  padding: 10px 11px 13px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.colPhoto img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.colBio {
+  display: flex;
+  flex-direction: column;
+}
+
+.colClients {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 11px 13px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.colCv {
+  padding: 10px 11px 13px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── TYPOGRAPHY ── */
+.body {
+  font-size: clamp(6.25px, 1.3vw, 12.5px);
+  line-height: 1.6;
+  color: var(--ink);
+}
+.bodyLarge {
+  font-size: clamp(9px, 1.8vw, 18px);
+}
+.body + .body {
+  margin-top: 1em;
+}
+
+.heroLink {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+.heroLink:hover {
+  border-bottom-color: var(--ink);
+}
+
+.clientLink {
+  color: inherit;
+  text-decoration: none;
+}
+.clientLink:hover {
+  text-decoration: underline;
+}
+
+/* ── CV ── */
+.cvText {
+  font-size: clamp(6.25px, 1.3vw, 12.5px);
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.cvBlock {
+  margin-bottom: 6px;
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 10px;
+}
+
+.cvYear {
+  font-size: clamp(6.25px, 1.3vw, 12.5px);
+  line-height: 1.4;
+  color: var(--ink);
+  grid-row: 1 / 3;
+  align-self: start;
+  white-space: nowrap;
+}
+
+.cvCompany {
+  font-size: clamp(6.25px, 1.3vw, 12.5px);
+  line-height: 1.4;
+  color: var(--ink);
+  grid-column: 2;
+}
+
+.cvRole {
+  font-size: clamp(5.5px, 1.14vw, 11px);
+  line-height: 1.4;
+  color: var(--ink-faint);
+  grid-column: 2;
+}
+
+/* ── TAGS ── */
+.tagFilter {
+  margin-top: auto;
+  padding-top: 2em;
+}
+
+.tagList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tagBtn {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: none;
+  border: 1px dotted var(--ink);
+  padding: 4px 9px;
+  color: var(--ink);
+  letter-spacing: 0.03em;
+  transition: background 0.15s;
+}
+
+.tagBtn:hover,
+.tagActive {
+  background: rgba(0,0,0,0.08);
+}

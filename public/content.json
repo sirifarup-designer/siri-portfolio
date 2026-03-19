@@ -1,0 +1,141 @@
+{
+  "site": {
+    "name": "Siri Farup"
+  },
+  "about": {
+    "photo": "About.webp",
+    "bio": [
+      "Graphic Design, Visual Arts, Culture, Eventproduction, Activistic Practices.",
+      "Currently freelancing and working part time at Institut For (X), Aarhus as in-house Graphic Designer. Based in Denmark.",
+      "CVR: 45078043",
+      "Feel free to reach out: sirifarupqmr@gmail.com"
+    ],
+    "email": null,
+    "clients": [
+      { "name": "Institut For (X) (DK)", "url": "https://institutforx.dk/" },
+      { "name": "Frontløberne (DK)", "url": "https://frontloberne.dk/" },
+      { "name": "Center For Digital Pædagogik (DK)", "url": "https://cfdp.dk/" },
+      { "name": "Krabbesholm Højskole (DK)", "url": "https://krabbesholm.dk/da/Linjefag/Visuel-Kommunikation/Efteraar-2025/Plakater" },
+      { "name": "Kulturforvaltningen Aarhus Kommune (DK)", "url": "https://generationerneshus.aarhus.dk/media/rlrn0uff/mangfoldighed_i_kulturen_2025.pdf?format=noformat" },
+      { "name": "Kinesis Recordings (AU)", "url": "https://kinesisrecordings.bandcamp.com/album/kinesiverse" },
+      { "name": "Flinta*8000 (DK)", "url": "https://www.instagram.com/flinta8000/" },
+      { "name": "Mellemfolkeligt Samvirke (DK)", "url": "https://www.ms.dk/" },
+      { "name": "Turkis (DK)", "url": "https://www.turkislive.com/" },
+      { "name": "Scuff Projects (DK)", "url": "https://www.instagram.com/scuff.projects/" },
+      { "name": "Lærke Lyhne (DK)", "url": "https://www.laerkelyhne.com/" },
+      { "name": "ID3.Lab (DK)", "url": "https://www.id3lab.com/" },
+      { "name": "Wasabi.FM (DK/JP)", "url": "https://www.instagram.com/wasabi.fm/" },
+      { "name": "Vucago Management (DK)", "url": null },
+      { "name": "Pessima (IT)", "url": "https://www.pessimart.com/" },
+      { "name": "Pana Records (DK)", "url": "https://panarecords.bandcamp.com/" },
+      { "name": "Alter Festival UK (GB)", "url": "https://www.instagram.com/alterfestivaluk/" },
+      { "name": "Common Index (IT)", "url": "https://www.commonindex.xyz/" },
+      { "name": "UngKult (DK)", "url": "https://ungkult.dk/" },
+      { "name": "Minimal Collective (NL)", "url": "https://www.minimalcollective.digital/" },
+      { "name": "Martine Othilie Keramikkunstner (DK)", "url": null },
+      { "name": "Institut For Text (DK)", "url": null },
+      { "name": "UMTO Ungemiljøernes Takeover (DK)", "url": "https://umto.dk/" },
+      { "name": "Ungdomskulturhuset UKH (DK)", "url": "https://ungdomskulturhuset.com/" },
+      { "name": "Dagmars Tærter (DK)", "url": null },
+      { "name": "Trashgirls 8000 (DK)", "url": "https://trashgirls8000.com/" },
+      { "name": "Mie Tegner (DK)", "url": "https://www.instagram.com/mietegner/" },
+      { "name": "Inga Bari (DK)", "url": "https://www.instagram.com/ingabari__/" },
+      { "name": "Rooted Festival (DK/LV)", "url": "https://www.lienejurgelane.com/about-rooted" },
+      { "name": "Positive World (GLOBAL)", "url": "https://www.instagram.com/peopleofmeat/" },
+      { "name": "Blink Twice (DK)", "url": "https://blinktwice.dk/" },
+      { "name": "Vinbix (DK)", "url": "https://www.madmorsvinbix.dk/" },
+      { "name": "SabotSabot (DK)", "url": "https://sabot.dk/" },
+      { "name": "Muthersdaughter (DK)", "url": null },
+      { "name": "Bureau Detours (DK)", "url": "https://detours.biz/" },
+      { "name": "Aarhus Volume (DK)", "url": "https://www.aarhusvolume.dk/" }
+    ],
+    "cv": [
+      { "year": "2025–Current", "company": "Institut For (Text) Forlag", "role": "Founder and Art Director" },
+      { "year": "2025", "company": "Krabbesholm Højskole", "role": "Guest Teacher, Graphic Design" },
+      { "year": "2024–Current", "company": "Institut For (X) Cultural Platform", "role": "Art Direction / Graphic Design, Communication, Strategy" },
+      { "year": "2024–Current", "company": "Flinta*8000", "role": "Founding and Projectleading, Eventdesign, Art Direction / Graphic Design" },
+      { "year": "2023–2025", "company": "Minimal Collective / Ozon Studio", "role": "Graphic Design, Editorial Design" },
+      { "year": "2023", "company": "Elisava Barcelona School of Design and Engineering", "role": "Visual Design" },
+      { "year": "2021–2024", "company": "Designschool Kolding", "role": "BA in Communication Design" },
+      { "year": "2020–Current", "company": "TRASHGIRLS 8000", "role": "Founding and Projectleading, Eventdesign, Art Direction / Graphic Design, Workshops, Communication" },
+      { "year": "2020–2022", "company": "Institut For (X)", "role": "Eventcoordinator, Projectleader (Safer Spaces), Graphic Design, Communication" },
+      { "year": "2020–2021", "company": "Bassin 7 by Bureau Detours", "role": "Communication, Curator, Workshops" },
+      { "year": "2016–2020", "company": "Aarhus Volume", "role": "Projectleader, Eventcoordinator, Graphic Design, Communication" }
+    ]
+  },
+  "projects": [
+    {
+      "id": "institut-for-text",
+      "title": "Institut For Text",
+      "folder": "Projects/3. Logo/7. Institut For Text",
+      "date": "2024",
+      "tags": ["logo", "identity"],
+      "description": "Visual identity for a Copenhagen-based institute for text and language.",
+      "count": 30,
+      "color": "#f0ede8",
+      "textColor": "#111",
+      "speed": "medium"
+    },
+    {
+      "id": "kulturforvaltningen",
+      "title": "Kulturforfaltningen Mangfoldighed",
+      "folder": "Projects/6. Editorial Design/1. Kulturforfaltningen Mangfoldighed I Kulturen",
+      "date": "2023",
+      "tags": ["editorial", "print"],
+      "description": "Editorial design exploring cultural diversity and institutional identity.",
+      "count": 30,
+      "color": "#e8e4dc",
+      "textColor": "#111",
+      "speed": "slow"
+    },
+    {
+      "id": "x-program",
+      "title": "X Program",
+      "folder": "Projects/4. Graphic Design - Identity/10. X Program",
+      "date": "2023",
+      "tags": ["identity", "graphic design"],
+      "description": "Graphic identity system for an experimental interdisciplinary program.",
+      "count": 30,
+      "columns": 2,
+      "color": "#d6d3cc",
+      "textColor": "#111",
+      "speed": "medium"
+    },
+    {
+      "id": "connexio",
+      "title": "Connexió",
+      "folder": "Projects/6. Editorial Design/4. Connexio",
+      "date": "2022",
+      "tags": ["editorial", "typography"],
+      "description": "Multilingual editorial project exploring connection across cultures.",
+      "count": 30,
+      "color": "#e4ddd4",
+      "textColor": "#111",
+      "speed": "fast"
+    },
+    {
+      "id": "krabbesholm",
+      "title": "Guest Teaching at Krabbesholm Højskole",
+      "folder": "Projects/4. Graphic Design - Identity/11. Krabbesholm",
+      "date": "2026",
+      "tags": ["teaching", "workshop"],
+      "description": "Workshop and visual output from a guest teaching residency.",
+      "count": 30,
+      "color": "#ede9e2",
+      "textColor": "#111",
+      "speed": "slow"
+    },
+    {
+      "id": "x-marks-the-spot",
+      "title": "X Marks The Spot 2026",
+      "folder": "Projects/4. Graphic Design - Identity/12. X Marks The Spot 2026",
+      "date": "2026",
+      "tags": ["identity", "editorial"],
+      "description": "Identity and publication design for an annual design event.",
+      "count": 30,
+      "color": "#e0dbd3",
+      "textColor": "#111",
+      "speed": "medium"
+    }
+  ]
+}

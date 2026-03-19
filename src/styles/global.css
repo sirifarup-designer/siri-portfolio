@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap');
+
+/* ── RESET ── */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: none !important;
+}
+
+:root {
+  --bg:        #f0ede8;
+  --ink:       #111111;
+  --ink-faint: rgba(17,17,17,0.38);
+  --ink-mid:   rgba(17,17,17,0.55);
+  --serif:     'Libre Baskerville', Georgia, serif;
+  --mono:      'DM Mono', 'Courier New', monospace;
+  --sans:      'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --speed-slow:   0.05px;
+  --speed-medium: 0.11px;
+  --speed-fast:   0.20px;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--ink);
+  overflow-x: hidden;
+  cursor: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: none !important;
+  border: none;
+  background: none;
+}
+
+img, video {
+  display: block;
+  max-width: 100%;
+}
+
+/* ── SCROLLBAR HIDE ── */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

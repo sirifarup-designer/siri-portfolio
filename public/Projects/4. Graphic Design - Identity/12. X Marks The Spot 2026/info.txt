@@ -1,0 +1,18 @@
+title: X Marks The SPOT 2026
+tags: visual identity
+describtion: Annual festival at Institut For (X) in collaboration with SPOT Festival. Graphic identity created together with Stelios Papageorgiou.
+date: 
+
+text: black
+color:
+columns: 
+height: 300
+smallnums: 1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33
+smallnums size:
+gap: 20
+speed: fast
+
+
+tags available: logo, visual identity, 3D, printing, posters, editorial design, website, teaching
+speed available: slow, medium, fast
+text available: black, white

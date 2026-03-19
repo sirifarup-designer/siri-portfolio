@@ -1,0 +1,16 @@
+title: Program for Institut For (X)
+tags: visual identity, posters
+describtion: Monthly and weekly program for culture platform Institut For (X).
+date: 2024-Now
+
+dark: false
+color:
+columns: 2
+height: 500
+smallnums:
+gap: 5
+speed: fast
+
+
+tags available: logo, visual identity, 3D, printing, posters, editorial design, website
+speed available: slow, medium, fast

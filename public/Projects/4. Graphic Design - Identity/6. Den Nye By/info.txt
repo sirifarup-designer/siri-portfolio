@@ -1,0 +1,11 @@
+title: Den Nye By
+tags: Editorial Design, Visual identity, Posters, Website, Logo
+date: 2025
+dark: fair
+color: #2E53B9
+columns: 2
+height: 400
+describtion: Identity for a festival for citizens and democracy, created by Frontløberne and many others.
+
+
+tags available: logo, visual identity, 3D, printing, posters, editorial design, website

@@ -1,0 +1,18 @@
+title: 
+tags: 
+describtion: 
+date: 
+
+text: 
+color:
+columns: 
+height: 
+smallnums:
+smallnums size:
+gap: 
+speed:
+
+
+tags available: logo, visual identity, 3D, printing, posters, editorial design, website, teaching
+speed available: slow, medium, fast
+text available: black, white

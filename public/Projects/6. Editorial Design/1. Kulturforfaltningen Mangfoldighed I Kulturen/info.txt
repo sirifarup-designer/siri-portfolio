@@ -1,0 +1,18 @@
+title: Kulturforvaltningen - Mangfoldighed I Kulturen
+tags: Editorial Design
+describtion: Publication for the Cultural Department in Aarhus Municipality.
+date: 2025
+
+text:
+color: #2E53B9
+columns: 1
+height: 500
+smallnums: 1,5,3,9,11,13,15
+smallnums size: 80
+gap: 20
+speed: slow
+
+
+tags available: logo, visual identity, 3D, printing, posters, editorial design, website
+speed available: slow, medium, fast
+text available: black, white

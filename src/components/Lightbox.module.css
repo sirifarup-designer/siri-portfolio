@@ -1,0 +1,36 @@
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.frame {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: auto;
+  pointer-events: all;
+}
+
+.media {
+  max-width: 88vw;
+  max-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.media img,
+.media video {
+  display: block;
+  max-width: 88vw;
+  max-height: calc(100vh - 40px);
+  width: auto;
+  height: auto;
+}

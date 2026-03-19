@@ -1,0 +1,15 @@
+title: Logo for Institut For Text
+tags: Logo, visual identity, editorial design
+describtion: Logo-Identity for publishing agency Institut For X, founded by Rikke Fandango and myself in 2025, Denmark.
+date: 2025
+
+dark: false
+color: #E5E5E5
+columns: 1
+height: 450
+smallnums: 2, 7
+gap: 50
+speed: medium
+
+
+tags available: logo, visual identity, 3D, printing, posters, editorial design, website
