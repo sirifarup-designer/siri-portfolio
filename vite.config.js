@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // e.g. base: '/siri-portfolio/'
 export default defineConfig({
   plugins: [react()],
-  base: '/',
+base: '/siri-portfolio/',
 })
