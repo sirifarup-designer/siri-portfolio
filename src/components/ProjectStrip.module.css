@@ -8,6 +8,7 @@
   flex-direction: column;
   overflow: hidden;
   padding-top: 10px;
+  gap: var(--strip-gap);
 }
 
 .strip {
