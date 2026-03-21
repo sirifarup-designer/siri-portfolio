@@ -1,0 +1,18 @@
+title: PANA Records Logo
+tags: logo, identity
+describtion: Pana Records is a label based in Aarhus, Denmark. Sounds curated by friends. Publications such as “Opulence - Bak 2 Work - Opulence”, “Dirty Plates - Northern Charm EP”, Good Deed Dubs VOL. II (Palestine support album) by Various Artists and Good Deed Dubs (Palestine support album) by Various Artists.
+date: 2025
+
+text: black
+color:
+columns: 
+height: 200
+smallnums size:
+gap: 20
+speed: medium
+
+count: 9
+
+tags available: logo, identity, 3D, printing, posters, editorial design, website, teaching
+speed available: slow, medium, fast
+text available: black, white

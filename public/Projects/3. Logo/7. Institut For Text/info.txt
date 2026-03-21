@@ -11,5 +11,6 @@ smallnums: 2, 7
 gap: 50
 speed: medium
 
+count: 11
 
 tags available: logo, visual identity, 3D, printing, posters, editorial design, website
