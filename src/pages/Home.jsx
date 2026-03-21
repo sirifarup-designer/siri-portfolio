@@ -44,7 +44,7 @@ async function loadProjectInfo(project) {
       columns:     info.columns     ? parseInt(info.columns) : project.columns,
       maxHeight:   info.height      ? parseInt(info.height)  : project.maxHeight,
 smallNums:     info.smallnums      ? new Set(info.smallnums.split(',').map(s => s.trim())) : project.smallNums,
-smallNumsSize: info['smallnums size'] ? parseInt(info['smallnums size']) : (info.height ? Math.round(parseInt(info.height) / 2) : project.smallNumsSize),
+smallNumsSize: info['smallnums size'] ? parseInt(info['smallnums size']) : project.smallNumsSize,
       gap:         info.gap         ? parseInt(info.gap)     : project.gap,
       speed:       info.speed       || project.speed,
     }
@@ -60,15 +60,15 @@ export default function Home({ content }) {
   const [projects, setProjects]         = useState([])
   const [allTags, setAllTags]           = useState([])
 
-  useEffect(() => {
-    const base = shuffle(content.projects)
-    // Load all info.txt files in parallel
-    Promise.all(base.map(loadProjectInfo)).then(loaded => {
-      setProjects(loaded)
-      const tagSet = new Set()
-      loaded.forEach(p => p.tags?.forEach(t => tagSet.add(t)))
-      setAllTags([...tagSet].sort())
-    })
+ useEffect(() => {
+    const loaded = content.projects.map(p => ({
+      ...p,
+      smallNums: p.smallNums ? new Set(p.smallNums) : undefined,
+    }))
+    setProjects(loaded)
+    const tagSet = new Set()
+    loaded.forEach(p => p.tags?.forEach(t => tagSet.add(t)))
+    setAllTags([...tagSet].sort())
   }, [content.projects])
 
   function handleTagClick(tag) {
