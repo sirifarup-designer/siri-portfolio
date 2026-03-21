@@ -65,6 +65,22 @@
   },
   "projects": [
     {
+      "id": "posters",
+      "title": "Posters",
+      "folder": "Projects/1. Posters",
+      "date": "",
+      "tags": ["posters"],
+      "description": "",
+      "count": 29,
+      "columns": 1,
+      "color": "#000000",
+      "textColor": "#fff",
+      "speed": "medium",
+      "gap": 3,
+      "maxHeight": 500,
+      "shuffle": true
+    },
+    {
       "id": "kulturforvaltningen-mangfoldighed",
       "title": "Kulturforvaltningen - Mangfoldighed I Kulturen",
       "folder": "Projects/1. Kulturforfaltningen Mangfoldighed I Kulturen",
@@ -75,7 +91,11 @@
       "columns": 1,
       "color": "#2E53B9",
       "textColor": "#fff",
-      "speed": "slow"
+      "speed": "slow",
+      "gap": 20,
+      "maxHeight": 500,
+      "smallNums": ["1","5","3","9","11","13","15"],
+      "smallNumsSize": 80
     },
     {
       "id": "connexio-typefont-editorial",
@@ -88,51 +108,59 @@
       "columns": 1,
       "color": "#4F4F4F",
       "textColor": "#fff",
-      "speed": "slow"
+      "speed": "slow",
+      "gap": 0,
+      "maxHeight": 400
     },
     {
       "id": "program-institut-for-x",
       "title": "Program for Institut For (X)",
       "folder": "Projects/10. X Program",
       "date": "2024-Now",
-      "tags": ["identity", "posters"],
+      "tags": ["visual identity", "posters"],
       "description": "Monthly and weekly program for culture platform Institut For (X).",
       "count": 30,
       "columns": 2,
       "color": "#f0ede8",
       "textColor": "#111",
-      "speed": "fast"
+      "speed": "fast",
+      "gap": 5,
+      "maxHeight": 500
     },
     {
       "id": "krabbesholm-guest-teaching",
       "title": "Guest Teaching at Krabbesholm Højskole",
       "folder": "Projects/11. Krabbesholm",
       "date": "2025",
-      "tags": ["identity", "teaching"],
+      "tags": ["visual identity", "teaching"],
       "description": "På Visuel Kommunikation har eleverne i et forløb med grafisk designer Siri Sølyst Farup har eleverne lavet plakater, som viser alt fra pakistansk fællesspisning, brat-summer's begravelse til kunstudstillinger på prestigefulde museer. Hver elev formulerede sin egen plakatbestilling, som derefter blev givet videre til en anden på holdet. På den måde blev processen både individuel og kollektiv. Til sidst klistrede de hele ugens arbejde op på væggen foran grafik-værkstedet og inviterede alle til at se det fælles værk.",
       "count": 9,
       "columns": 1,
       "color": "#f0ede8",
       "textColor": "#111",
-      "speed": "medium"
+      "speed": "medium",
+      "gap": 0,
+      "maxHeight": 500
     },
     {
       "id": "x-marks-the-spot-2026",
       "title": "X Marks The SPOT 2026",
       "folder": "Projects/12. X Marks The Spot 2026",
       "date": "2026",
-      "tags": ["identity"],
+      "tags": ["visual identity"],
       "description": "Annual festival at Institut For (X) in collaboration with SPOT Festival. Graphic identity created together with Stelios Papageorgiou.",
       "count": 14,
       "columns": 1,
       "color": "#f0ede8",
       "textColor": "#111",
-      "speed": "fast"
+      "speed": "fast",
+      "gap": 20,
+      "maxHeight": 300
     },
     {
       "id": "pana-records-logo",
       "title": "PANA Records Logo",
-      "folder": "Projects/6. Pana Records",
+      "folder": "Projects/3. Logo/6. Pana Records",
       "date": "2025",
       "tags": ["logo", "identity"],
       "description": "Pana Records is a label based in Aarhus, Denmark. Sounds curated by friends. Publications such as \"Opulence - Bak 2 Work - Opulence\", \"Dirty Plates - Northern Charm EP\", Good Deed Dubs VOL. II (Palestine support album) by Various Artists and Good Deed Dubs (Palestine support album) by Various Artists.",
@@ -140,20 +168,25 @@
       "columns": 1,
       "color": "#f0ede8",
       "textColor": "#111",
-      "speed": "medium"
+      "speed": "medium",
+      "gap": 20,
+      "maxHeight": 200
     },
     {
       "id": "institut-for-text-logo",
       "title": "Logo for Institut For Text",
-      "folder": "Projects/3. Logo/6. Pana Records",
+      "folder": "Projects/7. Institut For Text",
       "date": "2025",
-      "tags": ["logo", "identity", "editorial design"],
+      "tags": ["logo", "visual identity", "editorial design"],
       "description": "Logo-Identity for publishing agency Institut For X, founded by Rikke Fandango and myself in 2025, Denmark.",
       "count": 11,
       "columns": 1,
       "color": "#E5E5E5",
       "textColor": "#111",
-      "speed": "medium"
+      "speed": "medium",
+      "gap": 50,
+      "maxHeight": 450,
+      "smallNums": ["2","7"]
     }
   ]
 }

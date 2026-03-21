@@ -94,7 +94,7 @@ function MediaCell({ folder, index, maxHeight, isSmall, onOpen }) {
   )
 }
 
-function Strip({ folder, from, to, gap, maxHeight, smallNums, smallNumsSize, posRef, isLeader, speed, onOpen }) {
+function Strip({ folder, from, to, gap, maxHeight, smallNums, smallNumsSize, posRef, isLeader, speed, shuffle, onOpen }) {
   const rowRef = useRef(null)
 
   useEffect(() => {
@@ -122,21 +122,21 @@ function Strip({ folder, from, to, gap, maxHeight, smallNums, smallNumsSize, pos
     return () => cancelAnimationFrame(raf)
   }, [isLeader, speed, posRef])
 
-  const cells = []
-  for (let n = from; n <= to; n++) {
+ const indices = []
+  for (let n = from; n <= to; n++) indices.push(n)
+  if (shuffle) {
+    for (let i = indices.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [indices[i], indices[j]] = [indices[j], indices[i]]
+    }
+  }
+  const cells = indices.map(n => {
     const isSmall = smallNums?.has(String(n))
     const h = isSmall ? (smallNumsSize || 100) : maxHeight
-    cells.push(
-      <MediaCell
-        key={n}
-        folder={folder}
-        index={n}
-        maxHeight={h}
-        isSmall={isSmall}
-        onOpen={onOpen}
-      />
+    return (
+      <MediaCell key={n} folder={folder} index={n} maxHeight={h} isSmall={isSmall} onOpen={onOpen} />
     )
-  }
+  })
 
   return (
     <div ref={rowRef} className={styles.strip} style={{ gap }}>
@@ -163,7 +163,8 @@ export default function ProjectStrip({ project, visible, onOpen }) {
     title,
     description,
     date,
-    tags,
+tags,
+    shuffle,
   } = project
 
   const speed = SPEEDS[speedKey] ?? SPEEDS.medium
@@ -213,6 +214,7 @@ export default function ProjectStrip({ project, visible, onOpen }) {
             posRef={posRef}
             isLeader={row.isLeader}
             speed={speed}
+            shuffle={shuffle}
             onOpen={onOpen}
           />
         ))}
