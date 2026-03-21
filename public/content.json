@@ -83,7 +83,7 @@
     {
       "id": "kulturforvaltningen-mangfoldighed",
       "title": "Kulturforvaltningen - Mangfoldighed I Kulturen",
-      "folder": "Projects/1. Kulturforfaltningen Mangfoldighed I Kulturen",
+      "folder": "Projects/6. Editorial Design/1. Kulturforfaltningen Mangfoldighed I Kulturen",
       "date": "2025",
       "tags": ["editorial design"],
       "description": "Publication for the Cultural Department in Aarhus Municipality.",
@@ -100,7 +100,7 @@
     {
       "id": "connexio-typefont-editorial",
       "title": "Connexió - Typefont and Editorial",
-      "folder": "Projects/4. Connexio",
+      "folder": "Projects/6. Editorial Design/4. Connexio",
       "date": "2023",
       "tags": ["editorial design"],
       "description": "Connexió is a scripted display font inspired by the style of old handwritten (love) letters. The name of the typeface is derived from the deep connection between two people that is made when they write a love letter to each other. The name not only stands metaphorically for this connection — the majuscule script is also characterised by its squiggly ornaments. The ornaments create a connection between the individual letters and the ends of the script intertwine like embracing lovers. The script shows features of calligraphic experiments. The old-style numbers contrast with the script, but still contain the ornamental elements. A small special feature of the script are the punctuations. This typeface is intended as an invitation to write more love letters in the future.",
@@ -115,7 +115,7 @@
     {
       "id": "program-institut-for-x",
       "title": "Program for Institut For (X)",
-      "folder": "Projects/10. X Program",
+      "folder": "Projects/4. Graphic Design - Identity/10. X Program",
       "date": "2024-Now",
       "tags": ["visual identity", "posters"],
       "description": "Monthly and weekly program for culture platform Institut For (X).",
@@ -130,7 +130,7 @@
     {
       "id": "krabbesholm-guest-teaching",
       "title": "Guest Teaching at Krabbesholm Højskole",
-      "folder": "Projects/11. Krabbesholm",
+      "folder": "Projects/4. Graphic Design - Identity/11. Krabbesholm",
       "date": "2025",
       "tags": ["visual identity", "teaching"],
       "description": "På Visuel Kommunikation har eleverne i et forløb med grafisk designer Siri Sølyst Farup har eleverne lavet plakater, som viser alt fra pakistansk fællesspisning, brat-summer's begravelse til kunstudstillinger på prestigefulde museer. Hver elev formulerede sin egen plakatbestilling, som derefter blev givet videre til en anden på holdet. På den måde blev processen både individuel og kollektiv. Til sidst klistrede de hele ugens arbejde op på væggen foran grafik-værkstedet og inviterede alle til at se det fælles værk.",
@@ -145,7 +145,7 @@
     {
       "id": "x-marks-the-spot-2026",
       "title": "X Marks The SPOT 2026",
-      "folder": "Projects/12. X Marks The Spot 2026",
+      "folder": "Projects/4. Graphic Design - Identity/12. X Marks The Spot 2026",
       "date": "2026",
       "tags": ["visual identity"],
       "description": "Annual festival at Institut For (X) in collaboration with SPOT Festival. Graphic identity created together with Stelios Papageorgiou.",
@@ -175,7 +175,7 @@
     {
       "id": "institut-for-text-logo",
       "title": "Logo for Institut For Text",
-      "folder": "Projects/7. Institut For Text",
+      "folder": "Projects/3. Logo/7. Institut For Text",
       "date": "2025",
       "tags": ["logo", "visual identity", "editorial design"],
       "description": "Logo-Identity for publishing agency Institut For X, founded by Rikke Fandango and myself in 2025, Denmark.",
