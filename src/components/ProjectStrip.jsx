@@ -155,7 +155,7 @@ export default function ProjectStrip({ project, visible, onOpen }) {
     columns      = 1,
     gap          = 3,
     maxHeight,
-    smallNums,
+smallNums: smallNumsRaw,
     smallNumsSize,
     speed: speedKey = 'medium',
     color        = '#f0ede8',
@@ -166,6 +166,7 @@ export default function ProjectStrip({ project, visible, onOpen }) {
 tags,
     shuffle,
   } = project
+  const smallNums = smallNumsRaw ? new Set(smallNumsRaw) : undefined
 
   const speed = SPEEDS[speedKey] ?? SPEEDS.medium
 
